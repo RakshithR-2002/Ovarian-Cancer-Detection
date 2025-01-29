@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../val/images
+test: ../test/images
+path: /mnt/c/Users/Dell/Desktop/ovarian cancer/yolov8_mitosis
+
+nc: 2
+names: ['mitosis - caterpillar', 'mitosis - multipolar']
+
+roboflow:
+  workspace: ovarian-cancer-detection
+  project: histopatho
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ovarian-cancer-detection/histopatho/dataset/4
