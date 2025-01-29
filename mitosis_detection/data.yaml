@@ -1,7 +1,7 @@
 train: ../train/images
 val: ../val/images
 test: ../test/images
-path: /mnt/c/Users/Dell/Desktop/ovarian cancer/yolov8_mitosis
+path: <your_path>
 
 nc: 2
 names: ['mitosis - caterpillar', 'mitosis - multipolar']
